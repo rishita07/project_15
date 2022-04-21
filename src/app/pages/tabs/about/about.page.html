@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      About Us
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Team 15</ion-title>
+    </ion-toolbar>
+    <ion-buttons slot="start" *ngIf="urlCheck && urlCheck != 'tabs'">
+      <ion-back-button [defaultHref]="getPreviousUrl()"></ion-back-button>
+    </ion-buttons>
+  </ion-header>
+
+  <div id="container">
+    <h1>Created By :</h1>
+    <h2><a target="_blank" rel="noopener noreferrer" >Amandeep Hazara : 101286346 </a></h2>
+    <h2><a target="_blank" rel="noopener noreferrer" >Aneeka Shahnewaz : 101169755 </a></h2>
+    <h2><a target="_blank" rel="noopener noreferrer" >Arashdeep Dhillon : 101377809 </a></h2>
+    <h2><a target="_blank" rel="noopener noreferrer" >Gunjan Sharma : 101377804  </a></h2>
+    <h2><a target="_blank" rel="noopener noreferrer" >Kanav Bhatia : 101278920 </a></h2>
+    <h2><a target="_blank" rel="noopener noreferrer" >Rishita Gupta : 101203463 </a></h2>
+  </div>
+  
+</ion-content>

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "food-delivery-8a3ef"
+  },
+  "targets": {
+    "food-delivery-8a3ef": {
+      "hosting": {
+        "app": [
+          "food-delivery-8a3ef"
+        ]
+      }
+    }
+  }
+}
